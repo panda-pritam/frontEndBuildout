@@ -5,6 +5,9 @@ import OurService from "./components/services/ourService";
 
 import AboutUs from "./components/aboutUs/aboutUs";
 import Expert from "./components/weRExpertAt/expert";
+import DeriveingProperty from "./components/derivingProperty/deriveingProperty";
+import Enquery from "./components/enqiery/inquiry";
+import Review from "./components/review/review";
 import "./App.css";
 
 function App() {
@@ -15,6 +18,9 @@ function App() {
       <AboutUs />
       <OurService />
       <Expert />
+      <DeriveingProperty />
+      <Enquery />
+      <Review />
     </div>
   );
 }
