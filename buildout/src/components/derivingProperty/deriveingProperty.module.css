@@ -73,8 +73,12 @@
   /* … */
   .mainDiv {
     word-wrap: break-word;
-    margin-top: 5rem;
-    padding: 8px;
+    margin-top: 2rem;
+    padding: 16px;
+    margin-left: 8px;
+    /* margin-right: 8px; */
+    box-sizing: border-box;
+    text-align: center;
   }
   .subDiv {
     display: block;
@@ -89,12 +93,13 @@
     font-weight: 700;
   }
   .subHead {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
   }
   .para {
     text-align: left;
     font-size: 16px;
+    text-align: center;
   }
   .contentDiv {
     display: flex;

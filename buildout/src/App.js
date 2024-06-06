@@ -8,6 +8,8 @@ import Expert from "./components/weRExpertAt/expert";
 import DeriveingProperty from "./components/derivingProperty/deriveingProperty";
 import Enquery from "./components/enqiery/inquiry";
 import Review from "./components/review/review";
+import ContactForm from "./components/contact/contact";
+import LastPage from "./components/lastPage/lastPage";
 import "./App.css";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <DeriveingProperty />
       <Enquery />
       <Review />
+      <ContactForm />
+      <LastPage />
     </div>
   );
 }

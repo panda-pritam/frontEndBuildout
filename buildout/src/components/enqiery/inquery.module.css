@@ -121,3 +121,20 @@
     align-items: center;
   }
 }
+@media (min-width: 200px) and (max-width: 1050px) {
+  /* … */
+  .mainDiv {
+    word-wrap: break-word;
+    margin-top: 2rem;
+    padding: 16px;
+    margin-left: 8px;
+    /* margin-right: 8px; */
+    /* box-sizing: border-box; */
+    text-align: center;
+  }
+  .cardDiv {
+    padding: 8px;
+    /* box-sizing: border-box; */
+    margin: 8px;
+  }
+}
